@@ -5,7 +5,9 @@
 @stop
 
 @section('menu')
-<li><a href="{{ URL::to('productos/'.$producto->idlinea) }}" class="nav-link"> << Volver</a></li>
+<ul>
+  <a href="{{ URL::to('productos/'.$producto->idlinea) }}" class="nav-link"> << Volver</a>
+</ul>
 @stop
 
 
